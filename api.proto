@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "/api";
+
+message Foo {
+   
+    repeated int32 IntArray = 1;
+    repeated float FloatArray = 2;
+    repeated string StringArray = 3; 
+}
